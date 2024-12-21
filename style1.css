@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* flex-direction: row; */
+}
+
+header ul li{
+   display: inline-flex;
+   cursor: pointer;
+   color: #5a5757;
+   padding: 1vh 2vh;
+}
+header ul li:hover{
+    text-decoration: underline;
+}
+
+header img {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+}
+.google{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+.google .g_img{
+    width: 28vw;
+}
+.s_items{
+    position: relative;
+}
+.s_items .icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.s_items input{
+    position: relative;
+    padding: 2.3vh 29vh;
+    border-radius: 5vh;
+    font-size: 1rem;
+    /* display: flex; */
+}
+.s_items .voice{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1vh 2vh;
+}
+
+.shortcut_group{
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    gap: 10vh;
+    margin: 0 auto;
+    left: 28%;
+}
+.shortcut_group a{
+    text-decoration: none;
+    font-size: 1.5vh;
+    color: #3b3a3a;
+}
+.shortcut_group h1{
+    margin-top: 4vh;
+    font-size: 1rem;
+}
+.w3_bg{
+    background-color: #5a5757;
+    width: 8vw;
+}
+.w3school{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.w3school img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+
+
+.youtube img{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+
+
+.add_shortcut i{
+    font-size: 2vw;
+    width: 2vw;
+    height: 2vh;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.google_content p{
+    color: #5a5757;
+    font-family: sans-serif;
+    font-size: 2.5vh;
+    bottom: 0;
+    margin-top: 210px;
+    float: right; 
+    margin-right: 3rem;   
+}
+.google_content a{
+    color: #3b3a3a;
+    text-decoration: none;
+    cursor: pointer;
+}
